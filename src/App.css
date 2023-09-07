@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+  background-color: #f3f2f0;
+}
+
+.main-container{
+  display:flex ;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.profile-container{
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 35px;
+}
+.button{
+  background-color: #0a66c2;
+  color: aliceblue;
+  border-radius: 40px;
+}
+button:hover{
+  background-color: #c81517;
+}
+.hero{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.input{
+  height: 40px;
+  background-color: #dce2f7;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 40px;
+  width: 200px;
+}
+
+.profile{
+  background-color: #b3b3b3;
+  padding:30px;
+  border-radius: 15%;
+}
+
+.image{
+  min-width: 200px;
+  border-radius: 50%;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
