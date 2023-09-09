@@ -9,8 +9,8 @@ const Profile=({image , name , githubprofile})=>{
          alt="hero" />
         <h2>{name}</h2>
         
-        <button className="button">
-        <a href={githubprofile}>Visit Profile
+        <button className="button ">
+        <a className="text-white" href={githubprofile}>Visit Profile
         </a></button>
         </div>
         </>
