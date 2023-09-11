@@ -73,7 +73,7 @@ function Search(){
       key={item.id}
       image={item.avatar_url}
       name={item.login}
-      githubprofile={item.html_url}
+      username={item.login}
     />
   ))
 )}

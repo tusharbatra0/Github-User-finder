@@ -12,12 +12,30 @@
   gap: 15px;
 
 }
+.header{
+  display: flex;
+  gap: 15px;
+  font-size: 10px;
+}
 
+.anchors:hover{
+  padding: 4px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+.app-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
 }
 .profile-container{
   display: flex;
@@ -29,7 +47,7 @@
 }
 .button{
   background-color: #0a66c2;
-  color: aliceblue;
+  color: white;
   border-radius: 40px;
 }
 button:hover{
@@ -39,6 +57,9 @@ button:hover{
   display: flex;
   gap: 5px;
   justify-content: center;
+}
+.details{
+  font-size: x-large;
 }
 .input{
   height: 40px;
@@ -51,6 +72,10 @@ button:hover{
 }
 
 .profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
   background-color: #b3b3b3;
   padding:30px;
   border-radius: 15%;
