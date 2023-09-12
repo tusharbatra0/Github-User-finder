@@ -25,7 +25,7 @@ const Summary = () => {
       {user.name && <h4 className="details">Name: {user.name}</h4>}
       {user.bio && <h5 className="details" >Bio: {user.bio}</h5>}
       <button className="button">
-        <a className="button" href={user.html_url}>Github Profile</a>
+        <a className="text-white" href={user.html_url}>Github Profile</a>
       </button>
     </div>
   );
